@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Telyxo store official</title>
+  <meta name="description" content="Deskripsi singkat website kamu.">
+  <meta name="keywords" content="kata kunci, website, contoh">
+  <meta name="robots" content="index, follow">
+  <style>
+    body {font-family: Arial, sans-serif; margin: 0; padding: 0; background: #0000FF; color: #333;}
+    header {background: #87CEEB; color: white; text-align: center; padding: 10px; border-radius: 0 0 100px 100px; border-bottom: 3px solid #fff;}
+    .container {max-width: 900px; margin: 20px auto; padding: 0 15px;}
+    .products {display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px;}
+    .card {background: white; border-radius: 8px; padding: 10px; text-align: center; box-shadow: 0 2px 6px rgba(0,0,0,0.1);}
+    .card img {width: 100%; height: 150px; object-fit: cover; border-radius: 6px;}
+    .card h3 {margin: 10px 0 5px; font-size: 16px;}
+    .price {color: #ff5a5f; font-weight: bold;}
+    .links a {display: inline-block; margin: 5px; padding: 6px 10px; background: #ff5a5f; color: white; border-radius: 5px; text-decoration: none; font-size: 14px;}
+    footer {text-align: center; padding: 15px; background: #fff; border-top: 1px solid #ddd;}
+    
+  </style>
+</head>
+<body>
+  <header>
+    <h1>TELYXO STORE</h1>
+    <p>Produk berkualitas, harga bersahabat</p>
+  </header>
+
+  <footer style ="background: #87ceeb; padding: 30px 10px; border-radius:20px 20px 20px 20px; font-size: 17px; width: 80%; margin: 10% auto; border-top: 3px solid #fff; border-right: 3px solid #fff; border-left: 3px solid #fff;">
+  <p>Apa saja keuntungan beli barang ditoko kami?
+  <p>
+  1. Barang" yang dijual berkualitas
+  <p>
+  2. Harga murah
+  <p>
+  3. Jika ada barang rusak atau kesalahan dari pihak kami uang dijamin kembali 100%
+  <p>
+  Selamat Berbelanja
+  </p>
+  </p>
+  </p>
+  </p>
+  </p>
+  </footer>
+
+  <div class="container">
+    <div class="products">
+      <div class="card">
+        <h3>WEKOME CABLE TYPE-C 66W KINKONG WDC-91A</h3>
+        <div class="price">Rp 20.000</div>
+        <div class="links">
+          <a href="https://id.shp.ee/S5eee3G" target="_blank">Shopee</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>KAKUSIGA DATA CABLE MICRO WEIMENG / KSC-982M</h3>
+        <div class="price">Rp 10.000</div>
+        <div class="links">
+          <a href="https://id.shp.ee/kTjJWeN" target="_blank">Shopee</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>WEKOME CHARHER 18W TYPE-C WP-U57A / WP-U57A</h3>
+        <div class="price">Rp 48.000</div>
+        <div class="links">
+          <a href="https://id.shp.ee/D6Jq9u4" target="_blank">Shopee</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Ikuti kami di <a href="https://www.instagram.com/telyxostore?igsh=MThldWpsMGJocXhiMQ==" target="_blank">Instagram</a> | Belanja di <a href="https://id.shp.ee/Co3hBz6" target="_blank">Shopee</a>
+    <p>
+    © 2025 Telyxostore official
+    </p>
+    </p>
+  </footer>
+  
+  <!-- Tombol garis tiga -->
+<button class="menu-btn" id="menuBtn">
+<div></div>
+<div></div>
+<div></div>
+</button>
+
+<!-- Panel kiri -->
+<div class="panel" id="panel">
+<button id="btnUser">👤</button>
+<button id="btnPengaturan">⚙️</button>
+<script>
+document.getElementById("btnPengaturan").onclick = function() {
+  alert("Comming Soon");
+};
+document.getElementById("btnUser").onclick = function() {
+  alert("Comming Soon");
+};
+</script>
+<style>
+#btnPengaturan {
+  font-size: 22px;
+  padding: 15px 25px;
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);  border-radius: 15px;
+  cursor: pointer;
+  backdrop-filter: blur(6px);
+  transition: 0.3s ease;
+  margin-top: 10%;
+}
+#btnPengaturan:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+}
+#btnUser {
+  font-size: 22px;
+  padding: 15px 25px;
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);  border-radius: 15px;
+  cursor: pointer;
+  backdrop-filter: blur(6px);
+  transition: 0.3s ease;
+}
+#btnUser:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+}
+</style>
+</div>
+
+<style>
+  /* Tombol garis tiga */
+  .menu-btn {
+    position: fixed;
+    top: 5px;
+    left: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+  }
+
+  .menu-btn div {
+    width: 28px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+    border-radius: 2px;
+  }
+
+  /* Panel kiri */
+  .panel {
+    position: fixed;
+    top: 1%;
+    left: -400px; /* sembunyikan dulu */
+    width: 100px;
+    height: 87%;
+    background-color: rgba(34, 34, 34, 0.8);
+    color: white;
+    padding: 60px 15px 15px;
+    transition: 0.3s;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    box-shadow: 2px 0 10px rgba(0,0,0,0.4);
+  }
+
+  .panel.active {
+    left: 0; /* tampilkan */
+  }
+</style>
+
+<script>
+  const menuBtn = document.getElementById('menuBtn');
+  const panel = document.getElementById('panel');
+
+  // Klik tombol → buka/tutup panel
+  menuBtn.addEventListener('click', (e) => {
+    e.stopPropagation(); // cegah klik tombol menutup panel
+    panel.classList.toggle('active');
+  });
+
+  // Klik di luar panel → tutup panel
+  document.addEventListener('click', (e) => {
+    if (!panel.contains(e.target) && !menuBtn.contains(e.target)) {
+      panel.classList.remove('active');
+    }
+  });
+  
+</script>
+</body>
+</html>
